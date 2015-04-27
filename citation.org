@@ -1,4 +1,7 @@
-
+The goal here is to create a set of standards that can be used by the Astronomical journals to enforce useful software citations. Useful
+here ammounts essentially to 'readable and displayable by ADS' (and others). The principle here is to put the responsibility
+for the creation and maintanance of metadata on the software authors, who have the most to gain, rather than on the paper
+authors who want to cite things as easily as possible. 
 
 
 - The journal receives a submition of a paper by Lintott et al that used software PIPELINE by Smith et al
@@ -31,4 +34,23 @@
 
 - ADS or any service can discover package JSON by following the link attached to the identifier.
   It can parse the minimum information to generate software usage and auhor citing metrics
+  
+  
+  This has several advantages which are not apparently obvious :
+  
+  1. Having the code and metadata live in a suitable open source repository will allow others to suggest adding tags for, for example, 
+  curating sets of software, certifying that something has passed review, pointing out cool stuff. Such review is not necessary, though
+  and can be an optional extra. 
+  
+  2. With some support, this should be backwards compatible; we could pay someone or someones as a one-off to find commonly 
+  cited code and provide references in the now-standard format
+  
+  3. Code authors are incentivised to provide good metadata by the use of that metadata for citation and its visibility on ADS
+  
+  4. The system works well for simple use cases (I'm referring to my own code in a paper) in the same way that would support a
+  multi-author package used by loads of people. 
+  
+  5. Github will make JSON searchable soon (could be done now with careful search design) and thus this standard is inherently searchable. 
+  
+
      
