@@ -1,0 +1,34 @@
+
+
+
+- The journal receives a submition of a paper by Lintott et al that used software PIPELINE by Smith et al
+
+- The editor uses the following policy for ensuring that there is a References entry for PIPELINE
+
+- The References entry may have a variety of formats (website,
+  conference paper, Github repo) but IN ADDITION should contain a Software Reference DOI where available.
+
+- That DOI allows discovery (eg, through a Github release of a
+  repository containing a PACKAGE.json or a BibTex format such as
+  exposed by Zenodo DOI) of a set of Software Reference Metadata.
+
+- The Software Reference metadata will contain at minimum the following information:
+  1) Title
+  2) Authors
+  3) Identifier
+  4) Date
+
+- The following optional metadata:
+
+  - Version name
+  - License
+
+- Arbitrary additional metadata to the desire of the developers:
+
+  - Dependencies
+  - Collection tags/keywords ("Astropy", "LSST")
+  - Description
+
+- ADS or any service can discover package JSON by following the link attached to the identifier.
+  It can parse the minimum information to generate software usage and auhor citing metrics
+     
